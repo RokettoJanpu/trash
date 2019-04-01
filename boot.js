@@ -12,7 +12,7 @@ for (const file of commandFiles) {
 	bot.commands.set(command.name, command);
 }
  
-
+const prefix = `!`;
 // THIS  MUST  BE  THIS  WAY
 
 bot.login(process.env.BOT_TOKEN);//where BOT_TOKEN is the token of our bot

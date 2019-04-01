@@ -1,9 +1,8 @@
-const fs = require(`fs`);
+
 const Discord = require(`discord.js`);
 
 const client = new Discord.Client();
-var giphyAPIClient = require(`giphy-js-sdk-core`);
-giphy = giphyAPIClient(process.env.GIPHY_KEY);
+
  
 
 client.on(`ready`, () => {

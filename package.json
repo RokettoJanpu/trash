@@ -1,25 +1,22 @@
 {
-
-  "name": "Test",
-
-  "description": "Test",
-
-  "version": "0.0.0",
-
+  "name": "rokettobot",
+  "version": "1.0.0",
+  "description": "RokettoJanpu's Discord bot.",
   "main": "boot.js",
-
   "scripts": {
-
-    "start": "node boot.js"
-
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node boot.js",
+    "lint": "eslint ."
   },
-
+  "author": "RokettoJanpu",
+  "license": "ISC",
   "dependencies": {
-
-    "discord.js": "11.1.0",
-
+    "bufferutil": "^4.0.1",
+    "discord.js": "^11.4.2",
+    "giphy-js-sdk-core": "^1.0.6",
+    "libsodium-wrappers": "^0.7.4",
+    "opusscript": "0.0.6",
+    "uws": "^9.14.0",
     "request": "2.81.0"
-
   }
-
 }

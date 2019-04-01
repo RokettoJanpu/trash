@@ -2,7 +2,10 @@ const fs = require(`fs`);
 const Discord = require(`discord.js`);
 
 // Grabs the command prefix and tokens from config.json
-const {prefix, botToken, giphyKey} = {process.env.PREFIX, process.env.BOT_TOKEN, process.env.GIPHY_KEY} || require(`./config.json`);
+// const {prefix, botToken, giphyKey} = || require(`./config.json`);
+const prefix = process.env.PREFIX;
+const botToken = process.env.BOT_TOKEN;
+const giphyKey = process.env.GIPHY_KEY;
 
 // Logs in RokettoBot.
 const bot = new Discord.Client();								
